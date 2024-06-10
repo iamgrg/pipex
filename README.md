@@ -30,11 +30,11 @@ This behaves similarly to the shell command:
 ```
 
 ### Example
-To mimic the command 
+To mimic the command :
 ```bash
 line ls -l | wc -l > outfile
 ```
-=>
+prompt :
 ```bash
 ./pipex infile "ls -l" "wc -l" outfile
 ```
